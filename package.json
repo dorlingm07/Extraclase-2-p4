@@ -1,0 +1,32 @@
+{
+  "name": "extraclase-2-cicd",
+  "version": "1.0.0",
+  "description": "API de gestion de tareas construida con Node.js y Express, usada como caso practico para el Extraclase 2 de CI/CD con GitHub Actions.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "cicd",
+    "github-actions",
+    "express",
+    "programacion-iv"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
