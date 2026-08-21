@@ -24,7 +24,7 @@ tests/
   app.test.js     # Pruebas de integracion sobre los endpoints
   tareas.test.js  # Pruebas unitarias sobre la logica de tareas
 docs/
-  Extraclase_2_CICD_Informe.docx   # Documento con las evidencias y el Ejercicio 4
+  Extraclase_2_CICD_Informe.pdf   # Documento con las evidencias, capturas y el Ejercicio 4
 vercel.json    # Configuracion de despliegue en Vercel
 ```
 
@@ -64,30 +64,18 @@ npm test
 
 ## Pendientes que me faltan por completar a mano
 
-Estas son cosas que no se pueden dejar resueltas solo con código, porque dependen de mi
-cuenta de GitHub y de Vercel:
-
-1. **Crear el environment `production`** en *Settings > Environments* del repositorio y
-   agregarle una regla de protección (por ejemplo, un aprobador requerido).
-2. **Crear un proyecto en Vercel** vinculado a este repositorio y generar un token de acceso.
-3. **Registrar los secrets** `VERCEL_TOKEN`, `VERCEL_ORG_ID` y `VERCEL_PROJECT_ID` en
-   *Settings > Secrets and variables > Actions*.
-4. Hacer push a `main` para que corran los tres workflows y **tomar las capturas de pantalla**
-   que evidencien las ejecuciones.
-5. Completar mi nombre completo, cédula y fecha de entrega en la portada del documento de
-   `docs/Extraclase_2_CICD_Informe.docx`.
-
-> **Nota:** dejé marcado con recuadros verdes dentro de
-> `docs/Extraclase_2_CICD_Informe.docx` exactamente dónde va cada captura de pantalla
-> (8 en total, repartidas entre los ejercicios 1, 2 y 3). Solo hay que reemplazar cada
-> recuadro por la imagen correspondiente.
+Ya configuré el environment `production`, los secrets de Vercel, tomé las 8 capturas de
+pantalla y completé mi nombre en la portada. Dejé la cédula y la fecha de entrega fuera del
+documento a propósito, porque el repositorio es público.
 
 ## Autoevaluación de la rúbrica
 
 | Criterio | Estado |
 |---|---|
-| Ejercicio 1: Pipeline CI | Implementado y probado en local |
-| Ejercicio 2: Pipeline CD | Implementado; falta configurar secrets/environment en GitHub y Vercel |
-| Ejercicio 3: Matriz de pruebas | Implementado |
-| Ejercicio 4: Análisis comparativo | Redactado en `docs/Extraclase_2_CICD_Informe.docx` (~600 palabras) |
-| Capturas de pantalla | Pendientes de agregar por mí |
+| Ejercicio 1: Pipeline CI | Implementado, probado y con capturas de evidencia |
+| Ejercicio 2: Pipeline CD | Implementado y desplegado exitosamente a Vercel |
+| Ejercicio 3: Matriz de pruebas | Implementado y con capturas de evidencia |
+| Ejercicio 4: Análisis comparativo | Redactado en `docs/Extraclase_2_CICD_Informe.pdf` (~600 palabras) |
+| Portada del documento | Completa |
+| Capturas de pantalla | Las 8 agregadas en el documento final |
+| Portada del documento | Falta completar mi nombre completo |
