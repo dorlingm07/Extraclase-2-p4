@@ -8,7 +8,7 @@ function crearApp() {
   app.get('/', (req, res) => {
     res.json({
       mensaje: 'API de gestion de tareas - Extraclase 2, CI/CD con GitHub Actions',
-      autor: 'Estudiante de Programacion IV, UNA',
+      autor: 'Estudiante de Programacion IV, ULatina',
     });
   });
 

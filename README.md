@@ -1,8 +1,7 @@
 # Extraclase 2 — CI/CD con GitHub Actions
 
 Este repositorio contiene el trabajo que hice para el Extraclase 2 del curso Programación IV
-(Universidad Nacional de Costa Rica, Escuela de Informática), sobre integración y despliegue
-continuo con GitHub Actions.
+(Universidad Latina de Costa Rica), sobre integración y despliegue continuo con GitHub Actions.
 
 Para la parte práctica construí una pequeña API REST de gestión de tareas con **Node.js y
 Express**, y sobre ese proyecto implementé los tres workflows de GitHub Actions que pedía el

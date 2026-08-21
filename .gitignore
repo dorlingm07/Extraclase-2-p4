@@ -3,6 +3,5 @@ coverage/
 .vercel
 *.log
 npm-debug.log*
-.env
-.env.local
+.env*
 .DS_Store
